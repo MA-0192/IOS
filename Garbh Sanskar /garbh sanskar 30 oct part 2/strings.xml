@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--      @author *********Pawan Kumar********** -->
+<!--      @Organisation****Media Agility******** -->
+<resources>
+    
+    <!-- Start:  Application Name
+     ################################
+     Application Name for uploading and
+     for showing with the name on device
+     ##################################-->
+    
+	<string name="app_name">Garbh Sanskar</string>
+    
+    <!-- End:  Application Name   -->
+	
+    
+    <!-- Start : Application  Properties Setting
+     ################################
+     This is properties for whole application
+     describing requirements of our application
+     ##################################-->
+	
+    <!-- Start :  Menu Properties-->
+    <string name="main_menu_icons_enable">Yes</string>
+    <string name="info_enable">Yes</string>
+    <string name="tell_a_freind_enable">Yes</string>
+    <string name="main_menu_footer_icon1_link">https://itunes.apple.com/us/app/ipooja/id355389118?mt=8</string>
+    <string name="main_menu_footer_icon2_link">https://itunes.apple.com/us/app/idasbodh/id582957594?mt=8</string>
+    <string name="main_menu_footer_icon3_link">https://itunes.apple.com/us/app/shri-sai-stuti/id625128908?mt=8</string>
+    <string name="main_menu_footer_icon4_link">https://itunes.apple.com/us/app/igurucharitra/id582964070?mt=8</string>
+    <!-- End   :  Menu Properties-->
+    
+    <!-- Start :  Sub Menu Properties-->
+    <string name="sub_menu_enable">No</string>
+    <string name="sub_menu_icon_enable">No</string>
+    <!-- End   :  Sub Menu Properties-->
+    
+    <!-- Start :  Audio Screen Properties-->
+    <string name="mala_enable">Yes</string>
+    <string name="beads_enable">Yes</string>
+    <string name="Numberoftimes_enable">Yes</string>
+    <string name="SeekBar_enable">Yes</string>
+    <string name="PlayPause_enable">Yes</string>
+    <string name="Setting_enable">Yes</string>
+    <string name="Refresh_enable">Yes</string>
+    <string name="Text_enable">No</string>
+    <!-- End   :  Audio  Screen Properties-->
+    
+    <!-- Start :  Parent General Setting Properties-->
+    
+    <!-- Start :  Parent Audio Setting Properties-->
+    <string name="audio_setting_enable">Yes</string>
+    <string name="continuous_enable">Yes</string>
+    <string name="nooftimes_enable">Yes</string>
+    <string name="duration_enable">Yes</string>
+    <!-- End :    Parent Audio Setting Properties-->
+    
+    <!-- Start :  Parent Display Language Properties-->
+    <string name="display_language_setting_enable">No</string>
+    <!-- End   :  Parent Display Language Properties-->
+    
+    <!-- Start :  Parent Narration Language Properties-->
+    <string name="narration_language_setting_enable">No</string>
+    <!-- End :    Parent Narration Language Properties-->
+    
+    <!-- End :    Parent General Setting Properties-->
+    
+    
+    <!-- Start :  Info Screen Properties
+     ################################
+     If info icon is not enable in menu properties
+     then we can skip Info Screen Properties
+     ##################################-->
+    
+    <string name="friend_subject">Invitation to download Garbh Sanskar</string>
+    <string name="friend_default_text">Greetings, I wish to share Garbh Sanskar Application for iPhone with you. To learn more and download it, follow the link below:http://itunes.com/apps/zenagestudios. You can also visit our website: www.ipooja.com</string>
+    <string name="other_app_enable">Yes</string>
+    <string name="other_app_link">http://itunes.com/apps/zenagestudios</string>
+    <string name="web_site_enable">Yes</string>
+    <string name="web_site_link">http://www.ipooja.com</string>
+    <string name="feedback_enable">Yes</string>
+    <string name="feedback_default_text">Thank You </string>
+    
+    <!-- End :  Info Screen Properties-->
+	
+    <!--End : Application  Properties Setting -->
+    
+	
+	
+	
+    <!-- Start:  Child General Setting Properties
+	 #######################################
+	 Child General Setting properties depends
+	 upon the Parent General Setting Properties
+	 that you described above.If you have any
+	 item that is not enable then just remove it
+	 from there position without changing their order.
+	 ##################################-->
+    
+    <string-array name="Setting_items">
+        <item>Audio Setting</item>
+    </string-array>
+    
+    <!-- Start:  Child Audio Setting Properties
+     ################################
+     Child Audio Setting properties depends
+     upon the Parent Audio Setting Properties
+     that you described above.If you have any
+     item that is not enable then just remove it
+     from there position without changing their order.
+     ##################################-->
+    
+    <string-array name="Audio_Setting_Items">
+        <item>Continuous</item>
+        <item>Number Of Times</item>
+        <item>Duration</item>
+    </string-array>
+    
+    <!-- End:  Child Audio Setting Properties-->
+    
+	
+    <!-- Start:  Child Display Language Properties
+     ################################
+     1.Case:Child Display Language properties depends
+     upon the Parent Display Language Properties
+     that you described above.If it is not enable
+     then you can just skip this whole part.
+     2.Case: If you want to remove any item(English,Hindi,Marathi)
+     then you can just remove it from there position without
+     changing their order.
+     ##################################-->
+    
+    <string-array name="Language_Setting_Items">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Marathi</item>
+    </string-array>
+    
+    <!-- End:  Child Display Language Properties-->
+    
+	
+    <!-- Start:  Child Narration Language Properties
+     #############################################################################
+     1.Case: If you want to remove any item (Hindi,Gujrati)then you can
+     just remove it from there position without changing their order.
+     
+     2.Case: Put the corresponding audios as in naming convention in raw folder.
+     3.Case: By default if narration setting is not enable and audio is there with
+     particular item then default naming convention must be used as in hindi.
+     4.Case: If you want there should be no audio corresponding to any particular item
+     or sub-item then simply should not put the audio in raw folder corresponding
+     to that item.
+     #############################################################################-->
+    
+    <string-array name="Narration_Setting_Items">
+        <item>Hindi</item>
+        <item>Gujrati</item>
+    </string-array>
+    
+    <!-- End:  Child Narration Language Properties-->
+    
+	
+    <!-- End:  Child General Setting Properties	-->
+	
+	
+	
+	
+    
+	
+    <!-- Start:  Main Menu Data
+     ##########################################################
+     1.  In main menu data we add the Main Menu Items as many as we
+     need  that is to be shown in our main menu..
+     2.  If menu menu icons are enable then put the corresponding
+     icons in drawable folder as per naming convention.
+     3.  If our sub menu is enable(check from sub menu properties
+     above) then there is not need of 4. 5. 6. and point i.e. there
+     is no need of adding text corresponding to main menu items.
+     4.  If our submenu is not enable then we had to enter the text
+     that is shown in audio screen.
+     5.  For adding the text first check the Child Display Language
+     Properties(above) which languages we have then add the text
+     corresponding to main menu item according to naming convention.
+     6.  The default text to be shown is English(use english naming
+     convention)if parent display language properties is not enable.
+     7.  If you don't want to add text corresponding to particular item
+     then just don't write the text for that particular item.
+     #############################################################-->
+    
+    
+    <!-- Start:  Main Menu Items-->
+    
+    <string-array name="mainmenu_array">
+        <item>Garbh Sanskar Introduction</item>
+        <item>Garbh Sanskar Mantra</item>
+        <item>Garbh Savwaad</item>
+        <item>Pathanasathi Mantra</item>
+        <item>Aushadhe</item>
+    </string-array>
+	
+    <!-- End  :  Main Menu Items-->
+	
+    <!--  Start:  Audio Screen Text
+     ###########################################################
+     Enter Audio Screen text corresponding to main menu items.Use
+     Proper naming convention.Depends upon the language setting properties
+     Enter the \n character where you want to write text in next line.
+     ###########################################################-->
+    
+    <string name="main_menu0_English"></string>
+    ￼￼￼￼￼￼
+    <!--  End:  Audio Screen Text-->
+    
+    <!--  End:  Main Menu Data   -->
+    
+    
+    
+    
+    
+    <!-- Start:  Sub Menu Data
+     ##########################################################
+     ****"If Sub Menu is not enable then you can skip the whole
+     Sub Menu Data Part"****
+     
+     1.  In sub menu data we add the sub menu Items corresponding
+     to  main menu items as per naming convention.
+     2.  If sub menu icons are enable then put the corresponding
+     icons in drawable folder as per naming convention.
+     3.  For adding the audio text first check the Child Display Language
+     Properties(above) which languages we have then add the text
+     corresponding to sub menu item according to naming convention.
+     4.  The default text to be shown is English(use english naming
+     convention)if parent display language properties is not enable.
+     5.  If you don't want to add text corresponding to particular item
+     then just don't write the text for that particular item.
+     #############################################################-->
+    
+    
+    <!-- Start:  Sub Menu Items
+     #########################################################
+     As we have two main menu items then we must have two group
+     sub menu items.In sub group items we can add as many item
+     as we want.Use Proper naming Convention-->
+    
+    
+	
+    <!-- End  :  Sub Menu Items-->
+	
+    
+    <!--  End:  Sub Menu Data   -->
+    
+    
+    
+    <!-- -Start:  Info Properties
+     ###############################
+     If info Ion is enable -->
+	
+    
+    <string name="info_text">Welcome to the spiritual world of soothing chants !
+        
+        This is our second set of chants, carefully designed and mastered specially for the iPhone, iPOd and iPad. Immerse yourself in the soothing chants to melt away the stress of your day-to-day routine.
+        
+        The application is presented by iPooja (developed by MediaAgility LLC)  which specializes in creating Smart Phones based Mobile Applications. The entire Audio Contents for this App has been created by Saieesh Media Creation which is a Delhi based Media company . Shri Amit Saxena (Saxena Bandhu) has recited the Shri Sai Chalisa in a serene voice and recitation is made at such a speed that it is very easy to follow and comprehend.
+        
+        iPooja Apps are passionate about Mobile Apps and that's why we believe that our apps will be very valuable to you. Our Apps meet our rigorous quality standards and testing before they reach you. We hope you will enjoy your purchase thoroughly and will come back to buy more apps from iPooja. 
+        
+        We hope that you like the App. <br/>Please send us your valuable feedback at ipooja@mediaagility.com
+        
+    </string>
+    
+    <string name="copyright_text1">(c) 2013 MediaAgility LLC</string>
+    <string name="copyright_text2">Audio copyright is with Fountain Music Company</string>
+    
+    
+    <!-- -End:   Info Proerties -->
+  	
+    
+</resources>
+
+
+
